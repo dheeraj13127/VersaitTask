@@ -3,7 +3,7 @@ import {
   Button,
   Card,
   CardContent,
-  CardMedia,
+  
   Grid,
   Typography,
 } from "@material-ui/core";

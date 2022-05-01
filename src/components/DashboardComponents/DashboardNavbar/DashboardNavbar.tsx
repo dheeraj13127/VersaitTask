@@ -1,4 +1,4 @@
-import { AppBar, Box,Typography,Button,Toolbar,Menu,MenuItem, Grid } from "@material-ui/core";
+import { AppBar,Button,Toolbar,Menu,MenuItem, Grid } from "@material-ui/core";
 import React, { ReactElement, FC } from "react";
 import '../../../styles/DashboardNavbarStyles/DashboardNavbar.scss'
 import logo from '../../../assets/dashboardNavbarAssets/navLogo.png'
