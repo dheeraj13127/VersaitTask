@@ -2,7 +2,7 @@ $libre:"Libre Baskerville",sans-serif;
 $nunito:"Nunito",sans-serif;
 
 .upcomingShowsContainer{
-    margin-top: 100px;
+    margin-top: 100px !important;
 }
 .upcomingShowsHeader{
     color: white !important;
@@ -10,7 +10,8 @@ $nunito:"Nunito",sans-serif;
    
 }
 .upcomingShowsViewAll{
-    color: #E5C558;
+    color: #E5C558 !important;
+    text-transform: capitalize !important;
     font-family: $nunito !important;
     font-weight: bold !important;
 }
@@ -33,6 +34,12 @@ $nunito:"Nunito",sans-serif;
 .upcomingShowsCard{
     border-radius: 10px !important;
     background-color: #111229 !important;
+    margin-left: -8px !important;
+
+}
+.upcomingShowsCardBox{
+    background-color: #111229 !important;
+    border-radius: 10px !important;
     border-right: 7px solid #234C97;
     border-top: 7px solid #301A68;
 }
@@ -78,3 +85,11 @@ $nunito:"Nunito",sans-serif;
     margin-right: 10px;
     margin-left: 10px !important;
 }
+@media only screen and (max-width: 768px) {
+  .upcomingShowsContainer{
+      margin-top: 50px !important;
+  }
+.upcomingShowsCardMoreInfoBtn{
+    font-size: 12px !important;
+}
+  }

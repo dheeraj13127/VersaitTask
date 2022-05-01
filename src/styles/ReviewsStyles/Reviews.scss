@@ -6,7 +6,7 @@ $nunito:"Nunito",sans-serif;
 .reviewsNavigation{
     display: flex;
     align-items: center;
-    color: white;
+    color: white !important;
     font-family: $nunito !important;
     font-weight: 600 !important;
     opacity: 0.8;
@@ -32,10 +32,11 @@ $nunito:"Nunito",sans-serif;
     margin-left: 15px;
 }
 .reviewsCard{
-    border-radius: 8px !important;
+    border-radius: 5px !important;
     background: #0A0B1A !important;
-    border: 2px solid #E5AF56;
+    border: 1px solid #E5AF56;
     padding: 12px;
+    margin-left: -5px !important;
 }
 .reviewsProfileTitle{
     color: white;
@@ -53,4 +54,9 @@ $nunito:"Nunito",sans-serif;
     color: white;
     font-family: $nunito;
     margin-top: 15px !important;
+}
+.reviewsCardBox{
+    border-radius: 10px !important;
+    border-right: 7px solid #276C73;
+    border-top: 7px solid #5293E8;
 }

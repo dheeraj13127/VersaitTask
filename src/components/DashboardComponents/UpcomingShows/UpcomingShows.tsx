@@ -22,9 +22,9 @@ const UpcomingShows: FC<any> = (): ReactElement => {
             <Typography variant="h6" className="upcomingShowsHeader">
               <span className="specialBorder">Up</span>coming Shows
             </Typography>
-            <Typography variant="body2" className="upcomingShowsViewAll">
+            <Button size="small" className="upcomingShowsViewAll">
               View All
-            </Typography>
+            </Button>
           </div>
         </Grid>
       </Grid>
@@ -37,8 +37,9 @@ const UpcomingShows: FC<any> = (): ReactElement => {
         className="upcomingShowsCardContainer"
       >
         {upcomingShowsData.map((ud, key) => (
-          <Grid key={key} item xs={12} sm={6} md={3} lg={2}>
-            <Card className="upcomingShowsCard">
+          <Grid key={key} item xs={10} sm={6} md={3} lg={2} >
+              <div className="upcomingShowsCardBox">
+              <Card className="upcomingShowsCard">
               <CardMedia
                 className="upcomingShowsCardImage"
                 component="img"
@@ -76,6 +77,8 @@ const UpcomingShows: FC<any> = (): ReactElement => {
                 <Button size="small"><BookOnlineIcon color="secondary" /></Button>
               </CardActions>
             </Card>
+              </div>
+          
             
           </Grid>
         ))}

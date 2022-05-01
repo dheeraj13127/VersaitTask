@@ -53,3 +53,19 @@ $nunito:"Nunito",sans-serif;
         height: 130px;
     }
   }
+  @media only screen and (max-width: 768px) {
+    .heroSectionContainer{
+        margin-top: 100px !important;
+    }
+    .heroSectionProgressContainer{
+        margin-top: 50px !important;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .heroSectionContainer{
+        margin-top: 80px !important;
+    }
+    .heroSectionHeader{
+        font-size: 35px !important;
+    }
+  }

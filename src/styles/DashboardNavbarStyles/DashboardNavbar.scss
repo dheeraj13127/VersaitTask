@@ -1,7 +1,37 @@
+$libre:"Libre Baskerville",sans-serif;
+$nunito:"Nunito",sans-serif;
+$openSans:"Open Sans",sans-serif;
 .dashboardNavbar{
     background: transparent !important;
-    box-shadow: none;
+    box-shadow: none !important;
 }
 .dashboardNavbarLogoBox{
-    flex:1;
+    flex:1 !important;
 }
+.dashboardNavbarItems{
+    text-transform: capitalize !important;
+    color: white !important;
+    font-family: $openSans !important;
+}
+.dashboardNavbarBagIcon{
+    font-size: 20px !important;
+}
+.dashboardNavbarSmall{
+    display: none !important;
+}
+.dashboardNavbarMenuIcon{
+    color: white !important;
+}
+@media only screen and (max-width: 768px) {
+    .dashboardNavbarLarge{
+        display: none !important;
+    }
+    
+   }
+
+@media only screen and (max-width: 768px) {
+   
+    .dashboardNavbarSmall{
+        display: flex !important;
+    }
+   }

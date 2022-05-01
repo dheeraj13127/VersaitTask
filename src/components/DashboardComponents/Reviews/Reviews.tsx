@@ -1,5 +1,6 @@
 import {
   Avatar,
+  Button,
   Card,
   CardContent,
   CardMedia,
@@ -21,10 +22,10 @@ const Reviews: FC<any> = (): ReactElement => {
             <Typography variant="h6" className="reviewsHeader">
               <span className="specialBorder">Re</span>views
             </Typography>
-            <Typography variant="body2" className="reviewsNavigation">
-              1/12 <ArrowBackIcon className="reviewsArrowBackIcon" />{" "}
+            <Button size="medium" className="reviewsNavigation">
+              1/12 <ArrowBackIcon className="reviewsArrowBackIcon" />
               <ArrowForwardIcon className="reviewsArrowForwardIcon" />
-            </Typography>
+            </Button>
           </div>
         </Grid>
       </Grid>
@@ -38,20 +39,23 @@ const Reviews: FC<any> = (): ReactElement => {
       >
         {reviewsData.map((rd, key) => (
           <Grid key={key} item xs={12} sm={6} md={4} lg={3}>
-            <Card className="reviewsCard">
+              <div className="reviewsCardBox">
+              <Card className="reviewsCard">
             
-              <CardContent className="">
-                <div className="reviewsProfileBox">
-                <Avatar src={rd.url}/>
-                <div className="reviewsProfileHeadBox">
-                <Typography variant="body2" gutterBottom className="reviewsProfileTitle">{rd.title}</Typography>
-                <Typography variant="caption" gutterBottom className="reviewsProfileCaption">{rd.caption}</Typography>
-                </div>
-               
-                </div>
-              <Typography gutterBottom variant="body1" className="reviewsProfileInfo">{rd.info}</Typography>
-              </CardContent>
-            </Card>
+            <CardContent className="">
+              <div className="reviewsProfileBox">
+              <Avatar src={rd.url}/>
+              <div className="reviewsProfileHeadBox">
+              <Typography variant="body2" gutterBottom className="reviewsProfileTitle">{rd.title}</Typography>
+              <Typography variant="caption" gutterBottom className="reviewsProfileCaption">{rd.caption}</Typography>
+              </div>
+             
+              </div>
+            <Typography gutterBottom variant="body1" className="reviewsProfileInfo">{rd.info}</Typography>
+            </CardContent>
+          </Card>
+              </div>
+           
           </Grid>
         ))}
       </Grid>

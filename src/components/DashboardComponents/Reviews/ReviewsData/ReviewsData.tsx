@@ -9,7 +9,7 @@ export const reviewsData=[
         url:user0
     },
     {
-        title:"Isaac Oluwatemilorun",
+        title:"Isaac Oluwaten",
         caption:"🇮🇹 PALO ALTO,CA",
         info:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae in donec in nisi vitae. Vestibulum pellentesque eget laoreet adipiscing",
         url:user1
