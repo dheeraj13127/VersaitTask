@@ -1,0 +1,56 @@
+$libre:"Libre Baskerville",sans-serif;
+$nunito:"Nunito",sans-serif;
+.reviewsContainer{
+    margin-top: 100px;
+}
+.reviewsNavigation{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: $nunito !important;
+    font-weight: 600 !important;
+    opacity: 0.8;
+}
+.specialBorder{
+    border-bottom: 3px solid #0259EB;
+     padding-bottom: 8px;
+
+}
+.reviewsHeader{
+    color: white !important;
+    font-family: $libre !important;
+   
+}
+.reviewsCardContainer{
+   margin-top: 50px !important;
+}
+.reviewsProfileBox{
+    display: flex;
+    align-items: center;
+}
+.reviewsProfileHeadBox{
+    margin-left: 15px;
+}
+.reviewsCard{
+    border-radius: 8px !important;
+    background: #0A0B1A !important;
+    border: 2px solid #E5AF56;
+    padding: 12px;
+}
+.reviewsProfileTitle{
+    color: white;
+    font-family: $libre;
+    font-weight: 700 !important;
+    
+}
+.reviewsProfileCaption{
+    color: #E5C558;
+    font-size: 11px !important;
+    font-family: $nunito;
+
+}
+.reviewsProfileInfo{
+    color: white;
+    font-family: $nunito;
+    margin-top: 15px !important;
+}

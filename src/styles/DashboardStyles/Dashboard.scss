@@ -1,5 +1,27 @@
-body{
+
+.dashboardContainer{
+    padding: 30px 120px;
     background:-webkit-linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 67.53%, #0A0B1A 85.33%),url('../../assets/dashboardAssets/dashBackground.png');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
+.dashboardSubContainer{
+    padding: 30px 120px;
+    
+    background-image: linear-gradient(to top, #0a0b1a, #0b0c1c, #0c0d1e, #0d0e21, #0e0f23);
+
+}
+@media only screen and (max-width: 600px) {
+    .dashboardContainer {
+      padding: 30px 20px;
+    }
+  }
+@media only screen and (max-width: 960px) {
+    .dashboardContainer {
+      padding: 30px 30px;
+    }
+    .dashboardSubContainer {
+        padding: 30px 30px;
+      }
+  }

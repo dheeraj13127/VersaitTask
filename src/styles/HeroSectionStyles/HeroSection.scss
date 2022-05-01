@@ -1,0 +1,55 @@
+$libre:"Libre Baskerville",sans-serif;
+$nunito:"Nunito",sans-serif;
+
+.heroSectionContainer{
+    
+    margin-top: 200px;
+}
+.heroSectionHeader{
+    color: white;
+    font-family: $libre !important;
+    font-weight: 700 !important;
+}
+.heroSectionInfo{
+    color: white;
+    font-family: $nunito !important;
+    opacity: 0.6;
+    font-weight: 400 !important;
+}
+.heroSectionProgressValue{
+    color: white;
+    font-family: $libre !important;
+    margin-top: 8px !important;
+    font-weight: 400 !important;
+}
+.heroSectionProgressContainer{
+    margin-top: 150px !important;
+}
+.heroSectionProgressInfo{
+    color: white;
+    opacity: 0.5;
+    font-family: $nunito !important;
+}
+.heroSectionProgressBox{
+    border: 1.5px solid rgba($color: #ffffff, $alpha: 0.3);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+.heroSectionProgressBox:hover{
+    border: 1.5px solid rgba($color: #ffffff, $alpha:1);
+    transition: 0.7s all ease-in-out;
+}
+.heroSectionProgressIcon{
+    color: white;
+}
+@media only screen and (max-width: 700px) {
+    .heroSectionProgressBox{
+        width: 130px;
+        height: 130px;
+    }
+  }

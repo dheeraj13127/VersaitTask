@@ -1,0 +1,80 @@
+$libre:"Libre Baskerville",sans-serif;
+$nunito:"Nunito",sans-serif;
+
+.upcomingShowsContainer{
+    margin-top: 100px;
+}
+.upcomingShowsHeader{
+    color: white !important;
+    font-family: $libre !important;
+   
+}
+.upcomingShowsViewAll{
+    color: #E5C558;
+    font-family: $nunito !important;
+    font-weight: bold !important;
+}
+.upcomingShowsBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.specialBorder{
+    border-bottom: 3px solid #0259EB;
+     padding-bottom: 8px;
+
+}
+.upcomingShowsCardContainer{
+    margin-top: 50px !important;
+}
+.upcomingShowsCardImage{
+    border-radius:none !important;
+}
+.upcomingShowsCard{
+    border-radius: 10px !important;
+    background-color: #111229 !important;
+    border-right: 7px solid #234C97;
+    border-top: 7px solid #301A68;
+}
+.upcomingShowsCardContent{
+    background-color: #111229;
+}
+.upcomingShowsActions{
+    background-color: #111229;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+.upcomingShowsCardType{
+    font-family: $nunito !important;
+    background: #E5C558;
+    font-weight: 600 !important;
+    padding: 2px 5px;
+    font-size: 10px !important;
+
+}
+.upcomingShowsCardSinger{
+    color: white;
+    font-family: $libre !important;
+    font-weight: 700 !important;
+    margin-top: 7px !important;
+}
+.upcomingShowsCardMoreInfoBtn{
+    color: #0259EB !important;
+    font-family: $nunito !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    font-size: 15px !important;
+}
+.upcomingShowsCardDivider{
+    background-color: #ffffff !important;
+    opacity: 0.2;
+}
+.upcomingShowsCardArrowIcon{
+    margin-left: 10px !important;
+    font-size: 15px !important;
+}
+.reviewsArrowBackIcon{
+    margin-right: 10px;
+    margin-left: 10px !important;
+}
