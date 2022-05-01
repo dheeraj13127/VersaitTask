@@ -8,6 +8,7 @@ import {
   Button,
   Divider,
 } from "@material-ui/core";
+
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import BookOnlineIcon from "@mui/icons-material/BookOnline";
 import React, { ReactElement, FC } from "react";
@@ -16,6 +17,7 @@ import { upcomingShowsData } from "./UpcomingShowsData/UpcomingShowsData";
 const UpcomingShows: FC<any> = (): ReactElement => {
   return (
     <div className="upcomingShowsContainer">
+        
       <Grid container>
         <Grid item xs={12}>
           <div className="upcomingShowsBox">
@@ -36,6 +38,7 @@ const UpcomingShows: FC<any> = (): ReactElement => {
         container
         className="upcomingShowsCardContainer"
       >
+
         {upcomingShowsData.map((ud, key) => (
           <Grid key={key} item xs={10} sm={6} md={3} lg={2} >
               <div className="upcomingShowsCardBox">
