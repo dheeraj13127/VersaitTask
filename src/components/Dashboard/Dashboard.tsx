@@ -5,12 +5,12 @@ const Dashboard: FC<any> = (): ReactElement => {
   return (
     <>
       <div className="dashboardContainer">
-          <DashboardNavbar/>
-        <HeroSection />
+          <DashboardNavbar/>        / Navbar */
+        <HeroSection />             / Stats Page */
       </div>
       <div className="dashboardSubContainer">
-        <UpcomingShows />
-        <Reviews />
+        <UpcomingShows />  /Upcoming Shows page */
+        <Reviews />       /Reviews page */
       </div>
     </>
   );

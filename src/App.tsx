@@ -8,7 +8,7 @@ const App = (props: Props) => {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Dashboard/>}/>
+        <Route path='/' element={<Dashboard/>}/>   /Dashboard contains all the components to be rendered*/
       </Routes>
     </Router>
   )
